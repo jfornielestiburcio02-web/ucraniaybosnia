@@ -1,0 +1,108 @@
+JUAN FORNIELES
+{
+transición
+2
+usa{
+	sudo audio
+		colecta
+}};
+(usa)
+				abre firebase;
+		colecta;
+				configuracion = https://firebaseapis.com/pilsub/.jsonbl
+			colectaErrorEnRecarga
+	sofiaPiludbsa
+	bosnia
+cierra uso
+}}}};
+		si "error"
+			retorno - cabecera
+		otro
+			lanzaError
+}};
+{ 
+	{
+		{
+			{
+
+
+usa firebase;
+(configuracion)	
+	mira("2")
+		colectaTextoSinTexto-ranura
+				enColeccion?=lanzaError
+													}}};
+										}}}}}};
+sin seguridad.error.pidlubna
+lanza		retorno			-cabecera
+
+			}
+		}	
+	}
+}
+malformacion(rama2) solucionaArchivomp3
+{	
+	{
+		{	
+			{	
+				{
+					{	
+}};
+}};
+}}:
+
+menosRetorno
+
+Siabre
+
+cierra firebase;
+
+
+usa toolkit
+usa mariadb
+usa postgreSQL
+
+(llama a base datos)
+(llama a malformacionSQL)
+(llamada sin llamada-)"kl"
+
+{
+	{
+		{
+			{
+				{
+ {
+		{
+				{
+							{
+	
+}}};
+
+
+
+usa postgresSQLSINMENOSRETORNO
+
+
+
+
+
+
+cierraTodoSinAviso;,;;;;;
+cierratoolkit
+cierramariadb
+cierrapostgre
+cierraBD(uso)
+cierramalformacion(uso)
+cierrallamada(llamada)
+}}};
+}}};
+}}){
+
+
+sinaviso-avisosinbloquo
+			}
+		}
+
+	}
+}
+finxlx;

@@ -1,0 +1,22 @@
+; hola.asm
+extern MessageBoxA
+extern ExitProcess
+
+section .data
+    titulo db 'Ensamblador x64', 0
+    mensaje db '¡Hola desde Windows!', 0
+
+section .text
+    global main
+
+main:
+    sub rsp, 40          ; Reservar espacio en la pila (Shadow Space + alineación)
+
+    xor r9d, r9d         ; uType: 0 (Botón OK)
+    lea r8, [titulo]     ; lpCaption: dirección del título
+    lea rdx, [mensaje]    ; lpText: dirección del mensaje
+    xor rcx, rcx         ; hWnd: 0 (Sin ventana padre)
+    call MessageBoxA     ; Llamar a la API
+
+    xor ecx, ecx         ; uExitCode: 0
+    call ExitProcess     ; Salir limpiamente
